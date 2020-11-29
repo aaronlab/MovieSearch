@@ -20,6 +20,7 @@
 		A47283922573685C00E95247 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47283912573685C00E95247 /* Constants.swift */; };
 		A47283962573699A00E95247 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47283952573699A00E95247 /* Movie.swift */; };
 		A472839925736B0900E95247 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472839825736B0900E95247 /* HTTPClient.swift */; };
+		A472839C25736CA200E95247 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A472839B25736CA200E95247 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		A47283912573685C00E95247 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A47283952573699A00E95247 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		A472839825736B0900E95247 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		A472839B25736CA200E95247 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		A472833F2573658A00E95247 = {
 			isa = PBXGroup;
 			children = (
+				A472839B25736CA200E95247 /* README.md */,
 				A472834A2573658A00E95247 /* MovieSearch */,
 				A47283492573658A00E95247 /* Products */,
 			);
@@ -235,6 +238,7 @@
 			files = (
 				A47283582573658D00E95247 /* LaunchScreen.storyboard in Resources */,
 				A47283552573658D00E95247 /* Preview Assets.xcassets in Resources */,
+				A472839C25736CA200E95247 /* README.md in Resources */,
 				A47283522573658D00E95247 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
