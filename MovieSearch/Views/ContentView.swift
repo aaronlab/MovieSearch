@@ -25,6 +25,15 @@ struct ContentView: View {
                         print(error)
                     }
                 }
+                
+                HTTPClient().getMovieDetail(id: "tt2313197") { result in
+                    switch result {
+                    case .success(let movieDetail):
+                        print(movieDetail)
+                    case .failure(let error):
+                        print(error)
+                    }
+                }
             }
     }
 }

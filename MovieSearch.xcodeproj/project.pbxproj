@@ -22,6 +22,7 @@
 		A472839925736B0900E95247 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472839825736B0900E95247 /* HTTPClient.swift */; };
 		A472839C25736CA200E95247 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A472839B25736CA200E95247 /* README.md */; };
 		A472839F25736D4900E95247 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A472839E25736D4900E95247 /* MovieDetail.swift */; };
+		A47283A22573716400E95247 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47283A12573716400E95247 /* URL+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		A472839825736B0900E95247 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		A472839B25736CA200E95247 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A472839E25736D4900E95247 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		A47283A12573716400E95247 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		A4728384257367B200E95247 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A47283A12573716400E95247 /* URL+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				A47283962573699A00E95247 /* Movie.swift in Sources */,
 				A4728382257367AD00E95247 /* URLImage.swift in Sources */,
 				A472834E2573658A00E95247 /* SceneDelegate.swift in Sources */,
+				A47283A22573716400E95247 /* URL+Extension.swift in Sources */,
 				A4728381257367AD00E95247 /* Rating.swift in Sources */,
 				A472839925736B0900E95247 /* HTTPClient.swift in Sources */,
 				A4728361257365B800E95247 /* APIKey.swift in Sources */,
