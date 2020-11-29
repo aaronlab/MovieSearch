@@ -17,7 +17,7 @@ final class HTTPClient {
     
     func getMoviesBy(search: String, completion: @escaping (Result<[Movie]?, NetworkError>) -> Void) {
         
-        guard let url = URL(string: "http://www.omdbapi.com/?s=\(search)&apikey=\(APIKey.key)") else {
+        guard let url = URL(string: "https://www.omdbapi.com/?s=\(search)&apikey=\(APIKey.key)") else {
             return completion(.failure(.badURL))
         }
         
@@ -39,7 +39,7 @@ final class HTTPClient {
     
     func getMovieDetail(id: String, completion: @escaping (Result<MovieDetail?, NetworkError>) -> Void) {
         
-        guard let url = URL(string: "http://www.omdbapi.com/?i=\(id)&apikey=\(APIKey.key)") else {
+        guard let url = URL(string: "https://www.omdbapi.com/?i=\(id)&apikey=\(APIKey.key)") else {
             return completion(.failure(.badURL))
         }
         
