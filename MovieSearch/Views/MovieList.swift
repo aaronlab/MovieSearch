@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MovieList: View {
     // MARK: - PROPERTIES
     
     // MARK: - BODY
@@ -40,6 +40,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MovieList()
     }
 }
