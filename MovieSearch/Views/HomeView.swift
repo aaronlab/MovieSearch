@@ -11,22 +11,30 @@ struct HomeView: View {
     // MARK: - PROPERTIES
     
     @ObservedObject private var viewModel: MovieListViewModel
-    
+    @State private var movieName: String = ""
     
     // MARK: - INIT
     
     init() {
         self.viewModel = MovieListViewModel()
-        self.viewModel.searchByName("batman")
     }
     
     // MARK: - BODY
 
     var body: some View {
         VStack {
+            TextField("Search", text: $movieName, onCommit:  {
+                self.viewModel.searchByName(self.movieName)
+            }) //: TEXT FIELD
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            
+            Spacer()
+            
             MovieListView(movies: viewModel.movies)
                 .navigationBarTitle("Movies")
-        }.embedNavigationView()
+        } //: VSTACK
+        .padding()
+        .embedNavigationView()
     }
 }
 
