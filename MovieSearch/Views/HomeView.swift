@@ -30,8 +30,16 @@ struct HomeView: View {
             
             Spacer()
             
-            MovieListView(movies: viewModel.movies)
                 .navigationBarTitle("Movies")
+            
+            if self.viewModel.loadingState == .success {
+                MovieListView(movies: viewModel.movies)
+            } else if self.viewModel.loadingState == .failed {
+                FailedView()
+            } else if self.viewModel.loadingState == .loading {
+                LoadingView()
+                Spacer()
+            }
         } //: VSTACK
         .padding()
         .embedNavigationView()
