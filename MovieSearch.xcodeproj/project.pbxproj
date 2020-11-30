@@ -30,6 +30,9 @@
 		A47283BD2573835100E95247 /* FailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47283BC2573835100E95247 /* FailedView.swift */; };
 		A47283C02573837500E95247 /* ViewModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47283BF2573837500E95247 /* ViewModelBase.swift */; };
 		A47283C32573866C00E95247 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47283C22573866C00E95247 /* LoadingView.swift */; };
+		A4D188EA2574F66400B4CD6C /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D188E92574F66400B4CD6C /* MovieDetailViewModel.swift */; };
+		A4D188F22574F7C100B4CD6C /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D188F12574F7C100B4CD6C /* MovieDetailView.swift */; };
+		A4D188F52574F92400B4CD6C /* MovieDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D188F42574F92400B4CD6C /* MovieDetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		A47283BC2573835100E95247 /* FailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedView.swift; sourceTree = "<group>"; };
 		A47283BF2573837500E95247 /* ViewModelBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBase.swift; sourceTree = "<group>"; };
 		A47283C22573866C00E95247 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A4D188E92574F66400B4CD6C /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		A4D188F12574F7C100B4CD6C /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		A4D188F42574F92400B4CD6C /* MovieDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,8 +187,9 @@
 		A472838F257367EB00E95247 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				A47283A4257372C000E95247 /* MovieListViewModel.swift */,
 				A47283BF2573837500E95247 /* ViewModelBase.swift */,
+				A47283A4257372C000E95247 /* MovieListViewModel.swift */,
+				A4D188E92574F66400B4CD6C /* MovieDetailViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -194,6 +201,8 @@
 				A47283B225737BD000E95247 /* MovieListView.swift */,
 				A47283BC2573835100E95247 /* FailedView.swift */,
 				A47283C22573866C00E95247 /* LoadingView.swift */,
+				A4D188F12574F7C100B4CD6C /* MovieDetailView.swift */,
+				A4D188F42574F92400B4CD6C /* MovieDetailCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,11 +279,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47283BA257382BB00E95247 /* String+Extension.swift in Sources */,
+				A4D188F52574F92400B4CD6C /* MovieDetailCell.swift in Sources */,
 				A4728387257367BF00E95247 /* ImageLoader.swift in Sources */,
 				A472834C2573658A00E95247 /* AppDelegate.swift in Sources */,
 				A47283962573699A00E95247 /* Movie.swift in Sources */,
 				A4728382257367AD00E95247 /* URLImage.swift in Sources */,
 				A472834E2573658A00E95247 /* SceneDelegate.swift in Sources */,
+				A4D188F22574F7C100B4CD6C /* MovieDetailView.swift in Sources */,
 				A47283A5257372C000E95247 /* MovieListViewModel.swift in Sources */,
 				A47283B325737BD000E95247 /* MovieListView.swift in Sources */,
 				A47283B725737CA700E95247 /* View+Extension.swift in Sources */,
@@ -285,6 +296,7 @@
 				A47283BD2573835100E95247 /* FailedView.swift in Sources */,
 				A47283502573658A00E95247 /* HomeView.swift in Sources */,
 				A47283922573685C00E95247 /* Constants.swift in Sources */,
+				A4D188EA2574F66400B4CD6C /* MovieDetailViewModel.swift in Sources */,
 				A472839F25736D4900E95247 /* MovieDetail.swift in Sources */,
 				A47283C32573866C00E95247 /* LoadingView.swift in Sources */,
 				A47283C02573837500E95247 /* ViewModelBase.swift in Sources */,
