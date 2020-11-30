@@ -37,7 +37,7 @@ final class HTTPClient {
         
     }
     
-    func getMovieDetail(id: String, completion: @escaping (Result<MovieDetail?, NetworkError>) -> Void) {
+    func getMovieDetail(id: String, completion: @escaping (Result<MovieDetail, NetworkError>) -> Void) {
         
         guard let url = URL.getMoviesById(id) else {
             return completion(.failure(.badURL))
