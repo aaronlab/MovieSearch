@@ -17,7 +17,7 @@ struct MovieDetailView: View {
             if viewModel.loadingState == .loading {
                 LoadingView()
             } else if viewModel.loadingState == .success {
-                
+                MovieDetailCell(viewModel: self.viewModel)
             } else if viewModel.loadingState == .failed {
                 FailedView()
             }
